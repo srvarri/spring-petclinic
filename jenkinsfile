@@ -13,8 +13,8 @@ pipeline {
                         rtMavenDeployer (
                             id: 'MAVEN_DEPLOYER',
                             serverId: 'JFROG_SPC',
-                            releaseRepo: 'qt-libs-release-local',
-                            snapshotRepo: 'qt-libs-snapshot-local'
+                            releaseRepo: 'spcc-libs-release-local',
+                            snapshotRepo: 'spcc-libs-snapshot-local'
                         )
                     }
                 }
