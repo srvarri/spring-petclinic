@@ -6,6 +6,7 @@ pipeline {
                        git branch: 'main',
                        url: 'https://github.com/srvarri/spring-petclinic.git'
                        
+                       
                     }
                 }
         stage('JFROG configuration') {
